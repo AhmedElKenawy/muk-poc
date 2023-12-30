@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    padding: 20px;
+  }
+  
+  .lib-muk-table {
+    margin-top: 20px;
+    // Add any custom styles for lib-muk-table here
+  }
+  
+  .lib-muk-button {
+    margin-right: 10px;
+    // Add any custom styles for lib-muk-button here
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  // Customize fonts
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  html,body {
+    font-family: "STCForward-Regular"  !important;
+
+    background-color: #FFFFFF;
+ }

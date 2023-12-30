@@ -1,0 +1,23 @@
+<div class="container mt-5">
+  <h2> Table Preview </h2>
+  <div class="row justify-content-center">
+    <div class="col-md-12">
+      @if(isLoaded ){
+      <lib-muk-table [config]="tableConfig"
+        (paginatorChange)="onPaginatorChange($event)">
+        <div actions>
+          <lib-muk-button [config]="tableConfig"></lib-muk-button>
+        </div>
+        <div search class="my-3">
+          <lib-muk-button [config]="tableConfig"></lib-muk-button>
+        </div>
+    
+      </lib-muk-table>
+      } @else {
+      <lib-muk-loading-spinner color="primary"></lib-muk-loading-spinner>
+
+      }
+
+    </div>
+  </div>
+</div>
